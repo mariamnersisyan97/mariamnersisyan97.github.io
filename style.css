@@ -1,0 +1,33 @@
+* {
+    font-family: 'Srisakdi', serif;
+    color: black;
+
+    
+}
+body {
+    background: url("goldpink.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+.name {
+    color: white;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: auto;
+    background-color: black;
+    box-sizing: border-box;
+    width: 25%;
+    
+}
+
+.leftnavi {
+    height: auto;
+    display: block;
+    font-weight: bold;
+    font-size: 50px;
+   justify-content: space-evenly;
+   flex-direction: column;
+}  
