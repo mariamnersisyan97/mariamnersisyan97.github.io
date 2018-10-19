@@ -4,20 +4,19 @@
 
     
 }
+/* .container {
+    display: flex;
+    flex-flow: row wrap; 
+    text-align: center;       
+ } */
+
 body {
     background: url("goldpink.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    margin: 0;
+    /* margin: 0; */
 }
-.container {
-    display: flex;
-    flex-flow: row wrap; 
-    text-align: center;       
- }
-    
-
 
 .flip-card {
     background-color: transparent;
@@ -79,27 +78,33 @@ body {
 
 .flip-card img {
     border-radius: 50%;
-    /* display: flex; */
-    
-}
-.main {
-    margin-left: 900px;
+    display: flex;
     
 }
 .main header {
     font-size: 100px;
-    padding: 0px;
+    text-align: center;
 }
-.snippetpics {
-   padding: 100px;
-   height: 300px;
-   width: 300px;
-   margin: auto;
-   border-radius: 50%;
-  
-   
+.main {
+    margin: auto;
+    padding: 250px;
+    text-align: center;
+    position: relative;
+    left: 300px;
+    
+    
 }
 .main h1 q {
     color: maroon;
     font-weight: bolder;
+    text-align: center;
+    
+}
+.pics {
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+    position: relative;
+    left: 300px;
+    
 }
