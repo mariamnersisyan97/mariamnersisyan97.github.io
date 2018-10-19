@@ -84,8 +84,6 @@ body {
 }
 .main {
     margin-left: 900px;
-    height: 150;
-    widows: 150;
     
 }
 .main header {
@@ -104,8 +102,4 @@ body {
 .main h1 q {
     color: maroon;
     font-weight: bolder;
-}
-..snippetpics image {
-    /* height: 150;
-    widows: 150; */
 }
