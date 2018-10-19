@@ -17,7 +17,18 @@ body {
     background-attachment: fixed;
     /* margin: 0; */
 }
-
+.box1 {
+    display: flex;
+    background-color: #ff8b8b;
+    border: black;
+    border-radius: 20px;
+    flex-wrap: nowrap;
+}
+.box2 {
+    display: flex;
+    background-color: beige;
+    border-style: ridge;
+}
 .flip-card {
     background-color: transparent;
     width: 300px;
@@ -133,5 +144,4 @@ body {
     position: relative;
     left: 700px;
   
-    
 }
