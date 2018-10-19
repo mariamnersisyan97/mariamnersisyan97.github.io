@@ -97,13 +97,17 @@ body {
     font-weight: bolder;
     
 }
-.pics {
+/* .pics {
     margin: auto;
     padding: 100px;
     text-align: center;
     position: relative;
     left: 300px;
-    
+    border-radius: 100px;
+
+} */
+.end {
+    position: sticky;
 }
 .end footer{
     color:midnightblue;
@@ -122,4 +126,12 @@ body {
 .end a h2 {
     font: 10px;
 
+}
+.gif {
+    margin: auto;
+    padding: 100px;
+    position: relative;
+    left: 700px;
+  
+    
 }
