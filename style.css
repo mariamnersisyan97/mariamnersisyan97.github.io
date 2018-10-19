@@ -4,11 +4,11 @@
 
     
 }
-/* .container {
+.container {
     display: flex;
     flex-flow: row wrap; 
     text-align: center;       
- } */
+ }
 
 body {
     background: url("goldpink.jpg");
@@ -67,7 +67,7 @@ body {
 .leftnavi {
    background-color: transparent;
    position: fixed;
-   padding: 60px;
+   padding: 20px;
    font-size: 30px;
    font-weight: 600;
     
@@ -81,10 +81,6 @@ body {
     display: flex;
     
 }
-.main header {
-    font-size: 100px;
-    text-align: center;
-}
 .main {
     margin: auto;
     padding: 250px;
@@ -92,12 +88,13 @@ body {
     position: relative;
     left: 300px;
     
-    
+}
+.main header {
+    font-size: 100px;
 }
 .main h1 q {
     color: maroon;
     font-weight: bolder;
-    text-align: center;
     
 }
 .pics {
