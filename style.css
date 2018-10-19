@@ -70,9 +70,7 @@ body {
    position: fixed;
    padding: 60px;
    font-size: 30px;
-   font-weight: bold;
-
-  
+   font-weight: 600;
     
 }  
 .leftnavi a:hover{
@@ -81,24 +79,33 @@ body {
 
 .flip-card img {
     border-radius: 50%;
-    display: flex;
+    /* display: flex; */
     
 }
 .main {
     margin-left: 900px;
-    /* padding: 0px 20px; */
+    height: 150;
+    widows: 150;
+    
 }
 .main header {
     font-size: 100px;
     padding: 0px;
 }
 .snippetpics {
-   padding: 600px;
-   height: 150px;
-   width: 50%;
+   padding: 100px;
+   height: 300px;
+   width: 300px;
+   margin: auto;
+   border-radius: 50%;
+  
    
 }
 .main h1 q {
-    font-weight: 100;
-    color: ;
+    color: maroon;
+    font-weight: bolder;
+}
+..snippetpics image {
+    /* height: 150;
+    widows: 150; */
 }
