@@ -1,13 +1,21 @@
 * {
     font-family: 'Cabin Sketch', serif;
     color: black;
+    /* box-sizing: border-box; */
+    
 
     
+}
+html, body {
+    margin-right: -4px; /*COMPENSATES THE VERTICAL SCROLLBAR*/
+    overflow-x: hidden; /*REMOVES HORIZONTAL SCROLLBAR THE ABOVE CREATES*/
+    margin-top: 0px; /*COMPENSATES THE HORIZONTAL SCROLLBAR*/
 }
 .container {
     display: flex;
     flex-flow: row wrap; 
-    text-align: center;       
+    text-align: center;  
+    box-sizing: border-box;     
  }
 
 body {
