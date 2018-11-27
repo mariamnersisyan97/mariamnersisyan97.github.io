@@ -84,12 +84,12 @@ body {
 
 
 .leftnavi {
-   background-color: transparent;
-   position: sticky;
+   background-color: purple;
+   position: static;
    padding: 20px;
    font-size: 30px;
    font-weight: 600;
-    
+    overflow: hidden;
 }  
 .leftnavi a:hover{
     color: #ff8b8b;
